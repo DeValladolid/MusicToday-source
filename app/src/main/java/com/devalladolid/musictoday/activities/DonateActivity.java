@@ -27,12 +27,12 @@ import java.util.List;
  */
 public class DonateActivity extends BaseThemedActivity implements BillingProcessor.IBillingHandler {
 
-    private static final String DONATION_1 = "naman14.timber.donate_1";
-    private static final String DONATION_2 = "naman14.timber.donate_2";
-    private static final String DONATION_3 = "naman14.timber.donate_3";
-    private static final String DONATION_5 = "naman14.timber.donate_5";
-    private static final String DONATION_10 = "naman14.timber.donate_10";
-    private static final String DONATION_20 = "naman14.timber.donate_20";
+    private static final String DONATION_1 = "com.devalladolid.musictoday.donate_1";
+    private static final String DONATION_2 = "com.devalladolid.musictoday.donate_2";
+    private static final String DONATION_3 = "com.devalladolid.musictoday.donate_3";
+    private static final String DONATION_5 = "com.devalladolid.musictoday.donate_5";
+    private static final String DONATION_10 = "com.devalladolid.musictoday.donate_10";
+    private static final String DONATION_20 = "com.devalladolid.musictoday.donate_20";
 
 
     private boolean readyToPurchase = false;
@@ -51,12 +51,12 @@ public class DonateActivity extends BaseThemedActivity implements BillingProcess
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Donate");
+        getSupportActionBar().setTitle("Donar");
         productListView = (LinearLayout) findViewById(R.id.product_list);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         status = (TextView) findViewById(R.id.donation_status);
 
-        bp = new BillingProcessor(this, getString(R.string.play_billing_license_key), this);
+
 
     }
 
