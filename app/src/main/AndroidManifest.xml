@@ -125,7 +125,7 @@
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="com.devalladolid.musictoday.metachanged" />
-                <action android:name="com.devalladolid.musictodaywdaa.playstatechanged" />
+                <action android:name="com.devalladolid.musictoday.playstatechanged" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_white" />
