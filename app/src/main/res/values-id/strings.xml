@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name" translatable="false">Timber</string>
     <string name="action_settings">Pengaturan</string>
 
     <string name="accessibility_play">Main</string>
@@ -87,7 +86,7 @@
     <string name="now_playing_selector">Pilih layar yang sedang diputar dari 4 gaya yang berbeda.</string>
     <string name="personalisation">Personalisasi</string>
     <string name="other">Lainnya</string>
-    <string name="timber_about_opensource">Timber adalah Pemutar Musik dengan Sumber Terbuka yang dikembangkan oleh Naman Dwivedi.</string>
+    <string name="timber_about_opensource">MusicToday adalah Pemutar Musik dengan Sumber Terbuka yang dikembangkan oleh DeValladolid.</string>
     <string name="summary_pause_detach">Berhenti memutar ketika headphone dilepas</string>
     <string name="pause_detach">Jeda saat dilepas</string>
     <string name="currently_selected">Yang Sedang Dipilih</string>

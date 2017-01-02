@@ -19,7 +19,6 @@ import android.app.Application;
 import com.afollestad.appthemeengine.ATE;
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.core.CrashlyticsCore;
-import com.crashlytics.android.ndk.CrashlyticsNdk;
 import com.devalladolid.musictoday.permissions.Nammu;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -45,7 +44,7 @@ public class TimberApp extends Application {
         Crashlytics crashlyticsKit = new Crashlytics.Builder()
                 .core(new CrashlyticsCore.Builder().disabled(BuildConfig.DEBUG).build())
                 .build();
-        Fabric.with(this, crashlyticsKit, new Crashlytics(), new CrashlyticsNdk());
+        Fabric.with(this, crashlyticsKit, new Crashlytics(), new Crashlytics());
 
         ImageLoaderConfiguration localImageLoaderConfiguration = new ImageLoaderConfiguration.Builder(this).build();
         ImageLoader.getInstance().init(localImageLoaderConfiguration);

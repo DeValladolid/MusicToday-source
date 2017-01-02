@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
         android:id="@+id/googleplus"
-        android:text="Google +"
+        android:text="Google+"
         android:textSize="17sp"
         android:clickable="true"
         style="@style/TextAppearance.AppCompat.Body1"/>
