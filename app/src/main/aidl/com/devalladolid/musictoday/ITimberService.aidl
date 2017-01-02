@@ -1,6 +1,6 @@
-package com.naman14.timber;
+package com.devalladolid.musictoday;
 
-import com.naman14.timber.helpers.MusicPlaybackTrack;
+import com.devalladolid.musictoday.helpers.MusicPlaybackTrack;
 
 interface ITimberService
 {

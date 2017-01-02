@@ -1,3 +1,3 @@
-package com.naman14.timber.helpers;
+package com.devalladolid.musictoday.helpers;
 
 parcelable MusicPlaybackTrack;
