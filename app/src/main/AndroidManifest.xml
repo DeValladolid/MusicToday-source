@@ -114,8 +114,8 @@
         <receiver android:name="com.devalladolid.musictoday.widgets.desktop.StandardWidget" android:label="@string/widget_standard">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.naman14.timber.metachanged" />
-                <action android:name="com.naman14.timber.playstatechanged" />
+                <action android:name="com.devalladolid.musictoday.metachanged" />
+                <action android:name="com.devalladolid.musictoday.playstatechanged" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_standard" />
@@ -124,8 +124,8 @@
         <receiver android:name="com.devalladolid.musictoday.widgets.desktop.WhiteWidget" android:label="@string/widget_white">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.naman14.timber.metachanged" />
-                <action android:name="com.naman14.timber.playstatechanged" />
+                <action android:name="com.devalladolid.musictoday.metachanged" />
+                <action android:name="com.devalladolid.musictodaywdaa.playstatechanged" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_white" />
@@ -134,8 +134,8 @@
         <receiver android:name="com.devalladolid.musictoday.widgets.desktop.SmallWidget" android:label="@string/widget_small">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.naman14.timber.metachanged" />
-                <action android:name="com.naman14.timber.playstatechanged" />
+                <action android:name="com.devalladolid.musictoday.metachanged" />
+                <action android:name="com.devalladolid.musictoday.playstatechanged" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_small" />
