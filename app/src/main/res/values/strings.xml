@@ -78,7 +78,7 @@
     <string name="personalisation">Personalisation</string>
     <string name="other">Other</string>
     <string name="advanced">Advanced</string>
-    <string name="timber_about_opensource">Timber is a open source Music Player developed by Naman Dwivedi.</string>
+    <string name="timber_about_opensource">MusicToday is a open source Music Player developed by DeValladolid.</string>
     <string name="summary_pause_detach">Toggle for pausing playback when headphone is detached</string>
     <string name="pause_detach">Pause on Detach</string>
     <string name="summary_xposed_trackselector">Requires Xposed and XMediaNotificationTrackSelector Xposed module to be installed. This will provide access to playing queue from the notification bar itself.</string>
@@ -121,7 +121,7 @@
 
 
     <!--do not translate these strings-->
-    <string name="app_name" translatable="false">Timber</string>
+    <string name="app_name" translatable="false">MusicToday</string>
     <string name="combine_two_strings" translatable="false">%1$s | %2$s</string>
     <string name="duration_format" translatable="false"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
     <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%3$02d</xliff:g></string>
@@ -138,5 +138,6 @@
 
     <string name="nothing_found">Nothing found</string>
     <string name="folders">Folders</string>
+    <string name="donation_text">Show your appreciation and support the development of MusicToday by donating some dollars to me</string>
 
 </resources>
