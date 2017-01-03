@@ -139,5 +139,6 @@
     <string name="nothing_found">Nothing found</string>
     <string name="folders">Folders</string>
     <string name="support_development">Support development</string>
+    <string name="popup_song_delete">Delete from device</string>
 
 </resources>

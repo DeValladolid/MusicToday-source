@@ -32,6 +32,6 @@
 
     <item
         android:id="@+id/popup_song_delete"
-        android:title="Delete from device" />
+        android:title="@string/popup_song_delete" />
 
 </menu>
