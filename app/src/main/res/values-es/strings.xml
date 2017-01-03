@@ -116,6 +116,10 @@
     <string name="play_next">Iniciar la siguiente</string>
     <string name="new_playlist">Nueva playlist</string>
 
+    <string name="nothing_found">Nada encontrado</string>
+    <string name="folders">Carpetas</string>
+
+    <string name="support_development">Ayudar al desarrollo</string>
 
     <!--do not translate these strings-->
     <string name="combine_two_strings" translatable="false">%1$s | %2$s</string>

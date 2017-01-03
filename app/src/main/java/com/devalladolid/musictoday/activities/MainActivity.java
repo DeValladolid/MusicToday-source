@@ -50,6 +50,8 @@ import com.devalladolid.musictoday.utils.Constants;
 import com.devalladolid.musictoday.utils.Helpers;
 import com.devalladolid.musictoday.utils.NavigationUtils;
 import com.devalladolid.musictoday.utils.TimberUtils;
+import com.joanzapata.iconify.Iconify;
+import com.joanzapata.iconify.fonts.FontAwesomeModule;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
@@ -350,7 +352,7 @@ public class MainActivity extends BaseActivity implements ATEActivityThemeCustom
                 break;
             case R.id.nav_help:
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                Uri data = Uri.parse("mailto:namandwivedi14@gmail.com");
+                Uri data = Uri.parse("mailto:devalladolidoficial@gmail.com");
                 intent.setData(data);
                 startActivity(intent);
                 break;

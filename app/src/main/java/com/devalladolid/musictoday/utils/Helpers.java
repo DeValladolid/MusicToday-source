@@ -57,11 +57,11 @@ public class Helpers {
 
     public static class AboutDialog extends DialogFragment {
 
-        String urlgooglelus = "https://plus.google.com/u/0/+NamanDwivedi14";
-        String urlcommunity = "https://plus.google.com/communities/111029425713454201429";
-        String urltwitter = "https://twitter.com/naman1405";
-        String urlgithub = "https://github.com/naman14";
-        String urlsource = "https://github.com/naman14/Timber/issues";
+                String urlgooglelus = "https://plus.google.com/109908567414757841468";
+                String urlcommunity = "https://plus.google.com/communities/103979330910706112793";
+                String urltwitter = "https://twitter.com/DeV_alladolid";
+                String urlgithub = "https://github.com/DeValladolid";
+                String urlsource = "https://github.com/DeValladolid/MusicToday-source/issues";
 
         public AboutDialog() {
         }
@@ -139,7 +139,7 @@ public class Helpers {
                 PackageInfo pInfo = getActivity().getPackageManager().getPackageInfo(getActivity().getPackageName(), 0);
                 String version = pInfo.versionName;
                 int versionCode = pInfo.versionCode;
-                appversion.setText("Timber " + version);
+                appversion.setText("MusicToday " + version);
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             }
